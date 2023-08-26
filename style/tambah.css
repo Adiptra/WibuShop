@@ -1,0 +1,19 @@
+* {
+    font-family: 'Fredoka', sans-serif;  
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.judul {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.halaman-utama {
+    border: 1px solid black;
+    text-align: center;
+    background-color: aqua;
+    height: 20px;
+    width: 10%;
+}

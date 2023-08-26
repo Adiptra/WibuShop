@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Bebas+Neue&family=Fira+Code:wght@300&family=Inter&family=Playfair+Display&family=Raleway:wght@200;400&family=Roboto&display=swap');
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Code";
+}
+
+.container 
+{
+  width: 1000px;
+  margin: auto;
+}
+
+header 
+{
+  width: 100%;
+  padding: 20px 0;
+  line-height: 45px;
+  border-bottom: 1px solid rgba(0, 0, 0, 20%);
+}
+header h1 
+{
+  font-size: 37px;
+  font-weight: bold;
+  font-family: 'Playfair Display';
+}
+header h3 
+{
+  font-size: 24px;
+}
+
+.deskripsi 
+{
+  margin: 20px 0;
+}
+
+.logo-faktur 
+{
+  border: 2px solid rgba(0,0,0,100%);
+  text-align: center;
+}
+.logo-faktur h1 {
+  padding: 10px;
+}
+
+.deskripsi-pelanggan 
+{
+  margin-top: 20px;
+}
+.deskripsi-pelanggan div 
+{
+  font-weight: bold;
+}
+
+/* TABLE */
+table 
+{
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 20%);
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table tbody td
+{
+  padding: 5px 7px;
+}
+
+h4 
+{
+  padding-top: 20px;
+}
+
+hr 
+{
+  width: 270px;
+  margin-top: 100px;
+}
+
+.ttd 
+{
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+.ttd .left
+{
+  width: 50%;
+}
+.ttd .right 
+{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

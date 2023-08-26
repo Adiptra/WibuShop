@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap');
+
+:root {
+  --montserrat: 'Montserrat', sans-serif;
+  --poppins: 'Poppins', sans-serif;
+  --birutua: #002b5b;
+  --putih2: #a5becc;
+  --ungu: #4a1e59;
+  --ungu-muda: #8930a9;
+  --putih: #fff;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #002b5b;
+  display: block;
+}
+.logo {
+  float: left;
+  /* margin-left: 46px; */
+  padding: 0px 30px;
+  font-family: var(--poppins);
+  font-size: 25px;
+  font-weight: bold;
+}
+.logo a {
+  text-decoration: none;
+  color: #a5becc;
+}
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.nav ul {
+  list-style: none;
+  cursor: pointer;
+  float: left;
+  /* margin-left: 50%; */
+}
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 15px;
+}
+.nav ul li a {
+  color: #a5becc;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: var(--montserrat);
+}
+.nav ul li a:hover {
+  color: #99c7f5;
+}
+.nav ul li:hover {
+  border-bottom: 3px solid #688eb4;
+  transition: all 0.3s ease;
+}
+.nav ul .checkout {
+  border-bottom: 3px solid #688eb4;
+}
+.header {
+  width: 80%;
+  margin: 100px auto;
+}
+.header h1 {
+  color: #a5becc;
+  text-align: left;
+  font-family: var(--poppins);
+  font-size: 40px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--putih);
+}
+
+.container .title {
+  font-size: 25px;
+  padding: 12px 0;
+  width: 100%;
+  text-align: center;
+  background-color: var(--putih2);
+  font-family: var(--poppins);
+}
+
+.container .data {
+  width: 100%;
+  display: flex;
+  font-family: var(--montserrat);
+}
+
+.container .data .data-left,
+.data-right {
+  width: 50%;
+}
+
+.container .data .data-left ul,
+.data-right ul {
+  list-style: none;
+  line-height: 29px;
+}
+
+.container .data .data-left ul,
+.data-right ul li {
+  font-weight: bold;
+}
+
+.container table {
+  margin: 20px;
+  font-family: var(--montserrat);
+  width: 70%;
+  border: none;
+}
+.container table thead {
+  background-color: var(--birutua);
+}
+.container table thead tr th {
+  color: #fff;
+}

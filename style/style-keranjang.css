@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap');
+
+:root {
+  --montserrat: 'Montserrat', sans-serif;
+  --poppins: 'Poppins', sans-serif;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #002b5b;
+  display: block;
+  overflow-x: hidden;
+}
+.logo {
+  float: left;
+  /* margin-left: 46px; */
+  padding: 0px 30px;
+  font-family: var(--poppins);
+  font-size: 25px;
+  font-weight: bold;
+}
+.logo a {
+  text-decoration: none;
+  color: #a5becc;
+}
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.nav ul {
+  list-style: none;
+  cursor: pointer;
+  float: left;
+  /* margin-left: 50%; */
+}
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 15px;
+}
+.nav ul li a {
+  color: #a5becc;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: var(--montserrat);
+}
+.nav ul li a:hover {
+  color: #99c7f5;
+}
+.nav ul li:hover {
+  border-bottom: 3px solid #688eb4;
+  transition: all 0.3s ease;
+}
+.nav ul .keranjang {
+  border-bottom: 3px solid #688eb4;
+}
+.header {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 70%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header h1 {
+  color: #a5becc;
+  text-align: left;
+  font-family: var(--poppins);
+  font-size: 40px;
+}
+
+/* .content-header {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 85%;
+  color: #a5becc;
+  font-family: var(--montserrat);
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+  padding: 10px 12px;
+}
+.content-header a {
+  position: relative;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  background-color: #9551ee;
+  font-family: var(--poppins);
+  border: 1px solid #000;
+} */
+
+.content-header a:hover {
+  background-color: #688eb4;
+  color: #000;
+}
+table {
+  width: 70%;
+  border: 2px none;
+  background-color: #fff;
+}
+table thead tr th {
+  font-family: var(--poppins);
+  font-weight: bold;
+}
+table tbody tr td {
+  font-family: var(--montserrat);
+  padding: 10px;
+}
+table tbody tr td a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #002b5b;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+table tbody tr td a:hover {
+  background-color: #688eb4;
+}
+table tfoot tr th {
+  padding: 10px;
+}
+table tfoot tr th a{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #002b5b;
+  padding: 5px 7px;
+  margin-top: 5px;
+  border-radius: 3px;
+  font-family: var(--poppins);
+}
+table tfoot tr th a:hover {
+  background-color: #688eb4;
+}
+table tfoot tr th h4{
+  font-family: var(--poppins);
+  font-size: 20px;
+}

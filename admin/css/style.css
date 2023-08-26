@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap');
+
+:root {
+  --ungu: #4a1e59;
+  --ungu-muda: #8930a9;
+  --putih: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+nav {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: var(--ungu-muda);
+}
+
+nav .logo {
+  font-size: 24px;
+  color: var(--putih);
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul a {
+  color: var(--putih);
+  text-decoration: none;
+}
+nav ul a:hover {
+  text-decoration: underline;
+}
+
+nav ul a li {
+  padding: 0 10px;
+}
+
+.homepage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: var(--ungu);
+}
+
+/* homepage */
+
+.homepage .left,
+.right {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homepage .left .img {
+  width: 500px;
+  height: 500px;
+}
+.homepage .left img {
+  width: 500px;
+  height: 500px;
+}
+
+.homepage .right {
+  color: var(--putih);
+  line-height: 80px;
+  text-align: center;
+}
+
+.homepage .right h1 {
+  font-size: 30px;
+}
+
+.homepage button {
+  padding: 10px 30px;
+  border: 1px solid var(--putih);
+  background-color: transparent;
+  color: var(--putih);
+  border-radius: 10px;
+}
+
+.homepage button a {
+  color: var(--putih);
+  text-decoration: none;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: var(--ungu);
+}
+
+/* PRODUK PAGE */
+.produkpage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ungu);
+}
+
+.produkpage .title {
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--putih);
+}
+
+.group-card {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.group-card .card {
+  width: 280px;
+  height: 400px;
+  background-color: var(--putih);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 20%);
+  text-align: center;
+  line-height: 70px;
+  border-radius: 10px;
+}
+
+.group-card .card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.group-card .card .nama-produk {
+  font-size: 24px;
+}
+
+.group-card .card button {
+  padding: 8px 20px;
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.group-card .card button a {
+  text-decoration: none;
+  color: black;
+}
+
+/*pelanggan*/
+.homepage .admin {
+  margin: 100px auto;
+}
+
+.homepage .admin .judul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homepage .admin .judul div {
+  color: var(--putih);
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.homepage .admin a {
+  color: var(--putih);
+  font-size: 17px;
+  text-decoration: none;
+  border: 1px solid var(--putih);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+form {
+  margin: 40px auto;
+  color: black;
+  font-size: 20px;
+  background-color: var(--putih);
+  padding: 40px;
+  border-radius: 10px;
+  line-height: 35px;
+}
+
+form input {
+  padding: 5px 7px;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: transparent;
+}
